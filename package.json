@@ -1,19 +1,13 @@
 {
-  "name": "uni-vue-ynCom",
-  "version": "0.0.1",
+  "name": "ynan-components-uni",
+  "version": "0.0.2",
   "description": "components test for vue ",
   "author": "innaChen",
   "homepage": "",
   "repository": {},
-  "main": "./dist/yn-com.umd.cjs",
+  "main": "./dist/yn-com.umd.js",
   "files": ["dist"],
   "module": "./dist/yn-com.js",
-  "exports":{
-    ".":{
-      "import":"./dist/yn-com.js",
-      "require":"./dist/yn-com.umd.cjs"
-    }
-  },
   "license": "ISC",
   "scripts": {
     "build": "vite build",

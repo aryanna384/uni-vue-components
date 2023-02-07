@@ -11,7 +11,7 @@ export default defineConfig({
     chunkSizeWarningLimit:1500,
     lib: {
       entry: resolve(__dirname, 'packages/index.ts'),
-      name: 'yn-com',
+      name: 'ynCom',
       // the proper extensions will be added
       fileName: 'yn-com',
     },

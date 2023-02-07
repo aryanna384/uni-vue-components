@@ -8,6 +8,12 @@
   "main": "./dist/yn-com.umd.js",
   "files": ["dist"],
   "module": "./dist/yn-com.js",
+  "exports":{
+    ".":{
+      "import":"./dist/yn-com.mjs",
+      "require":"./dist/yn-com.umd.js"
+    }
+  },
   "license": "ISC",
   "scripts": {
     "build": "vite build",

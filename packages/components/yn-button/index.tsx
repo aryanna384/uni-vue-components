@@ -6,7 +6,7 @@ export default defineComponent(({
   setup() {
   return () => (
     <div>
-      <button onClick={()=>alert('hello')}>click me</button>
+      <button onClick={()=>alert('hello upgrade')}>click me</button>
       <div>hello</div>
     </div>
   );
